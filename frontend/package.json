@@ -1,0 +1,32 @@
+{
+  "name": "crypto-trade-simulator",
+  "version": "1.0.0",
+  "description": "Real-time cryptocurrency trade simulation with advanced market analysis",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve -s . -l 3000",
+    "build": "echo 'No build process needed for static site'",
+    "deploy": "npm run build && echo 'Add your deployment command here'",
+    "test": "echo 'No tests specified'"
+  },
+  "keywords": [
+    "cryptocurrency",
+    "trading",
+    "simulator",
+    "web-app",
+    "finance"
+  ],
+  "author": "Crypto Trade Simulator Team",
+  "license": "MIT",
+  "devDependencies": {
+    "serve": "^14.2.1"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
